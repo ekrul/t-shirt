@@ -1,0 +1,96 @@
+#achso {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border:1px solid #ffaa22;
+	color:#333333;
+}
+
+#achso, #okay, #adjuge, #je, #euh, #horreur, #translation-wrap {
+  display: none;
+}
+
+body {
+  max-width: 700px;
+  min-height: 500px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 90%;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 90%;
+  border:1px solid #4e6096;
+  border-radius: 3px;
+  margin: 20px auto;
+  display: block;
+  box-shadow: none;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	color:#ffffff;
+	font-family:"Trebuchet MS", sans-serif;
+  height: auto;
+  overflow:auto;
+}
+
+#content {
+  margin: 0 auto;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#picture-wrap, #buttons-wrap {
+  width: 90%;
+  max-width: 300px;
+  padding: 5% 20px;
+  margin: 0 auto;
+}
+
+span {
+  font-size: 80%;
+}
+
+#translation-wrap {
+  border: 1px solid black;
+  padding: 5% 10px;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+@media (min-width:600px) {
+  #picture-wrap {
+    width: 50%;
+    float: left;
+  }
+  #buttons-wrap {
+    width: 50%;
+    float: right;
+  }
+}
